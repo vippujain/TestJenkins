@@ -1,4 +1,4 @@
-package com;
+package com.infogain;
 
 public class Employee implements ITask {
 	private String name;	
@@ -25,7 +25,7 @@ public class Employee implements ITask {
 	public String toString() {
 		return "Employee [name=" + name + ", salary=" + salary + "]";
 	}
-	@Override
+	
 	public void task() {
 		System.out.println("develop software");
 		

@@ -1,4 +1,4 @@
-package com;
+package com.infogain;
 
 public interface ITask {
 	

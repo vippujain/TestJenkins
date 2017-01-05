@@ -30,7 +30,7 @@ public class Manager implements ITask {
 
 	
 
-	@Override
+
 	public void task() {
 		System.out.println("manage employees of "+dept);
 		
